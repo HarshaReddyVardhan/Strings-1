@@ -1,14 +1,14 @@
-TC : (M+N)
-M : Size if String s
-N : Size of string Order
+// TC : (M+N)
+// M : Size if String s
+// N : Size of string Order
 
-SC : (M)
-M size for stringbuilder to build the string
-M size for the map to store the characters --> can be considered as O(1)
+// SC : (M)
+// M size for stringbuilder to build the string
+// M size for the map to store the characters --> can be considered as O(1)
 
-Approach:
-Add the characters as a frequency array
-Then iterate over the order string and add characters according to the order in string builder.
+// Approach:
+// Add the characters as a frequency array
+// Then iterate over the order string and add characters according to the order in string builder.
 add the remaining characters in any way.
 
 class Solution {
